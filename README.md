@@ -9,12 +9,10 @@ A Flutter application that **fetches and displays posts** from an API (`https://
  **Fetching & Displaying Data**
 When the app launches, it fetches posts from the API and displays them in a **scrollable ListView**.
 
-![List View](https://via.placeholder.com/500x300?text=List+View)
 
  **Loading State**
 A `CircularProgressIndicator` is shown while data is being fetched.
 
-![Loading Indicator](https://via.placeholder.com/500x300?text=Loading...)
 
 ### ❌ **Error Handling**
 If an error occurs (e.g., no internet), an error message appears with a **Retry** button.
